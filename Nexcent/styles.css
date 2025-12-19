@@ -1,0 +1,404 @@
+@import url('./principalstyles.css');
+
+
+
+header{
+    display: flex;/*organiza el nav*/
+    justify-content: space-evenly;/*espaciado*/
+    align-items: center;/*centrado*/
+    background-color: rgba(238, 243, 243, 0.623);
+}
+
+
+.nav-header ul{
+    display: flex;/*nav-header centrado*/
+    list-style: none;/*0 puntos*/
+    gap: 50px;/*espacio por palabra*/
+}
+
+.nav-header ul a{
+    text-decoration: none;/*no aparezcan subrayadas*/
+    color: #000000;
+}
+
+.button-login{
+    color:rgb(35, 139, 61);
+    padding: 10px 20px;
+    background-color: rgba(248, 250, 250, 0.993);
+    
+}
+.button-SignUp{
+    color: azure;
+    padding: 10px 20px;
+    background-color:rgb(35, 139, 61); 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-header{
+    gap: 14px;
+    padding: 22px 0px;/*espacio de arriba y abajo*/
+}
+
+
+main{
+    display: flex;
+    background-color: rgba(238, 243, 243, 0.623);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.informacion{
+    width: 657px;
+}
+
+h1{
+    font-size: 64px;
+    color: rgb(94, 93, 93);
+    font-weight: 600;
+}
+
+.informacion h1 span{
+    color:rgb(54, 160, 81);  ;
+}
+
+.informacion p{
+    margin-top: 16px;    
+}
+.registrar{
+    color: azure;
+    padding: 10px 20px;
+    background-color:rgb(58, 190, 91); 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+.our-client{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p{
+    margin-top: 8px;
+}
+
+.logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;    
+    margin-top: 16px;
+}
+
+
+.manage{ 
+    font-size: 20px;   
+    text-align: center;
+    margin-top: 40px;    
+}
+
+.manage h2{
+    width: 542px;
+    margin: 0 auto;
+}
+
+#manage-subtitulo{
+    margin-top: 8px;
+}
+
+.cards-container{
+    display: flex;
+    margin-top: 16px;
+    gap: 127.5px;
+    justify-content: center;
+}
+
+.cards-container article{
+    width: 299px; 
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px; 
+    transition: 0.5s;
+}
+.cards-container article img{
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3{
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    width: 231px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cards-container article p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+.pixelgrade{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding: 52px;
+    margin-top: 42px;
+}
+
+.pixelgrade-content{
+    width: 661px;
+}
+
+.pixelgrade-content h1{
+    width: 526px;
+}
+
+.pixelgrade-content p{
+    margin-top: 16px;
+
+}
+
+
+
+.helping-local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 204px;
+    padding: 64px 0px;
+}
+
+.helping-content h2{
+    width: 390px;
+}
+
+.helping-content h2 span{
+    color: var(--color-primary);
+}
+
+
+.how-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 49.47px;
+}
+
+.how-design h2{
+    width: 601px;
+}
+
+.how-design p{
+    margin-top: 16px;
+    width: 680px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--color-neutral-silver);
+}
+
+.customer-content{
+    width: 748px;    
+}
+
+.customer-content p{
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.customer-content h2{
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.customer-content p:nth-of-type(2){
+    color: var(--color-neutral-L_grey);    
+}
+
+.customer-container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.customer-itens{
+    display: flex;
+    gap: 41px;
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+.customer-navigation a{
+    display: flex;     
+    text-decoration: none;
+    gap: 8px;
+}
+
+.customer-navigation a p{
+    color: var(--color-primary);
+    margin: 0;    
+}
+
+
+
+.caring-marketing{
+    text-align: center;    
+}
+
+.caring-marketing h2{
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p{    
+    width: 628px;    
+    margin: 0 auto; 
+}
+
+.caring-marketing-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring-cards{
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content{
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: var(--color-neutral-silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;    
+    position: absolute;
+    bottom: -53px;
+    left: 25px;
+}
+
+.caring-cards-content h3{
+    font-size: 20px;
+    color: var(--color-neutral-grey);
+}
+
+.caring-cards-content a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px; 
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring-cards-content a p{
+    color: var(--color-primary);    
+}
+
+
+
+.pellentesque{
+    text-align: center;
+    background-color: var(--color-neutral-silver);
+    padding: 32px 0;
+}
+
+.pellentesque a{
+    text-decoration: none;
+}
+
+.pellentesque h2{
+    font-size: 64px;
+    
+    padding: 32px 0px;
+}
+
+.pellentesque button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;    
+}
+
+
+footer{
+    background-color: var(--color-neutral-black);
+    display: flex;    
+    justify-content: center;
+    gap: 284px;
+    padding: 64px 0;
+}
+
+.copyright{
+    margin: 40px 0;
+}
+
+.copyright p{
+    color: var(--color-neutral-silver);
+}
+
+
+.footer-socials{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-navigation h2{
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-white);
+}
+
+.footer-links{
+    list-style: none;
+    font-size: 14px;    
+}
+
+.footer-item{
+    color: white;
+    text-decoration: none;   
+}
+
+
+
+
+
+
+
+
+
+
+
